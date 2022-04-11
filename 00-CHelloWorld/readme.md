@@ -11,7 +11,7 @@ trabajos posteriores.
 * Proceso de compilación.
 * Pruebas.
 ### 3. Problema
-Adquirir y preparar los recursos necesarias para resolver los trabajos del curso.
+* Adquirir y preparar los recursos necesarias para resolver los trabajos del curso.
 ### 4. Restricciones
 * Ninguna.
 ### 5. Tareas
