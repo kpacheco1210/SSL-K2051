@@ -34,4 +34,4 @@ readme.md, hello.c, y output.txt .
 
 ### Aclaraciones
 > #### Compilador seleccionado:
-> C18
+> c17 standard (c18)
