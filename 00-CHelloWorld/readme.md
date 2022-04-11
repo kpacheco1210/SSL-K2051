@@ -33,5 +33,5 @@ readme.md, hello.c, y output.txt .
 
 
 ### Aclaraciones
-> #### Compilador seleccionado
-> * C18
+> #### Compilador seleccionado:
+> C18
