@@ -1,13 +1,11 @@
 #include "Conversion.h"
 
-
-float fahrACelcius(int fahr)
+double fahrACelcius(int fahr)
 {
     return (fahr-32)/1.8;
 }
 
-float celciusAFahr(int celsius)
+double celciusAFahr(int celsius)
 {
     return (celsius * 1.8)+32;
 }
-

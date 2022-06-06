@@ -1,20 +1,13 @@
 #include <stdio.h>
 #include "Conversion.h"
+#include "TablasDeConversion.h"
 
-typedef float (*funcion_t)(int);
+
+typedef double (*funcion_t)(int);
 
 const int LOWER = 0;
 const int UPPER = 300;
 const int STEP = 20;
-
-
-
-int main()
-{
-    printTablas();
-
-    return 0;
-}
 
 void printTablas()
 {
@@ -24,7 +17,6 @@ void printTablas()
   printf("\nTabla Farenheit a Celsius:\n");
   printTablaFahrenheit(LOWER, UPPER, fahrACelcius);
 }
-
 
 // Funciones PrintTablaCelsius y PrintTablaFarenheit
 
@@ -38,7 +30,7 @@ void printTablaFahrenheit(int limInferior, int limSuperior, funcion_t funcionFar
     prinfFilas(limInferior,limSuperior,funcionFarenheit);
 }
 
-
+// Funciones PrintFilas y PrintFila
 
 void prinfFilas(int limInferior, int limSuperior, funcion_t funcion)
 {
@@ -51,3 +43,12 @@ void printFila(int grados,funcion_t funcion)
 {
     printf("%3d  %6.1f\n", grados, funcion(grados));
 }
+
+
+int main()
+{
+    printTablas();
+
+    return 0;
+}
+
